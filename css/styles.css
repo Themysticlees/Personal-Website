@@ -1,0 +1,122 @@
+body{
+    text-align: center;
+    margin:0;
+    /*font-family:'Courier New', Courier, monospace,Arial, Helvetica, sans-serif;*/
+    font-family:'Courier New', Courier, monospace;
+    line-height: 30px;
+    
+}
+
+h2{
+    margin-bottom: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkolivegreen;
+    
+}
+h1{
+    margin-top: 0;
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 50px; /*16px=100%=1em*/
+    color: brown;
+}
+
+.container{
+    background-color:#C6D57E;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    left: 800px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 400px;
+}
+
+.DP{
+    width: 30%;
+    border-radius: 100%;
+    margin:50px auto 50px auto;
+}
+
+.Myself{
+    width: 60%;
+    margin: auto;
+    margin: 100px auto 150px auto;
+    
+}
+
+.Skills{
+    margin-top: 100px;
+    width: 60%;
+    margin: 100px auto 100px auto;
+}
+
+.Painting{
+    width: 25%;
+    
+    float: left;
+    margin-right: 30px;
+    
+    
+}
+
+.skill-text{
+    text-align: left;
+    margin: 100px auto auto auto;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    width: 5%;
+    border-width: 5px;
+    border-color: grey;
+    margin: 50px auto 50px auto;
+    
+}
+
+.code{
+    width: 35%;
+    float: right;
+    margin-left: 20px;
+}
+
+.code-text{
+    text-align: left;
+    margin: 150px auto 50px auto;
+}
+
+.contact-me{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.contact-button{
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+    width: 150px;
+    background-color:chocolate;
+    margin: 50px auto;
+    font-weight:bolder;
+    
+}
+.contact-button:hover{
+    background-color: coral;
+}
+
+a{
+    text-decoration: none;
+    color:black ;
+}
+
+a:hover{
+    color: brown;
+}
